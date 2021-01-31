@@ -1,0 +1,14 @@
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\Business.dll
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\Business.pdb
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.dll
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+E:\vs2019projeler\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
+E:\vs2019projeler\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb

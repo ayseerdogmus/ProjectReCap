@@ -1,0 +1,9 @@
+E:\vs2019projeler\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+E:\vs2019projeler\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+E:\vs2019projeler\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+E:\vs2019projeler\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
