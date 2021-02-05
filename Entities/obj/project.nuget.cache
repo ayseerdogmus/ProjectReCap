@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "egPjxqKhkalowH9vBhZE9YoJ4uXd57DDmz2EkhUYhJqFFpW6/7lKLa0/eL2XPj9LNoBmDYwxuZXgRU3SeYUk7Q==",
+  "dgSpecHash": "qlE15tmBNhfjhTNF0dZtz/xLwaE2U6AbUOvkn4nB6mphbfox9E04pWIhExSW3H1uYtpQpSaFslpaXCFBHl9GIg==",
   "success": true,
   "projectFilePath": "E:\\vs2019projeler\\ReCapProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
