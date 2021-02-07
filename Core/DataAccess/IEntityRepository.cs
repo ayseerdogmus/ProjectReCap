@@ -1,11 +1,13 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
+    //Core katmanında istenilen katman ayrı ayrı lasörlenip implement edilir!!!
+    //Core katmanı diğer katmanları referans almaz
     //class:referans tip
     //IEntity : ya IEntity olur ya da IEntity'yi implement eden sınıflar olur.
     //new()::New'lenebilir olmak zorunda bu sayede IEntity kabul olmaz çünkü interface

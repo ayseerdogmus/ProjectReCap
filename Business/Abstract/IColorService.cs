@@ -5,12 +5,8 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IColorService
-    {
-        void Add(Color brand);
-        void Update(Color brand);
-        void Delete(Color brand);
-        List<Color> GetAll();
+    public interface IColorService:IRepositoryService<Color>
+    {    
         Color GetById(int id);
     }
 }

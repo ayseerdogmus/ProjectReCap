@@ -58,3 +58,5 @@ E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win-x8
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
