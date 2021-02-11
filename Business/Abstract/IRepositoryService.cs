@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Utilities.Results;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,9 +8,9 @@ namespace Business.Abstract
 {
     public interface IRepositoryService<T> where T : class,IEntity, new()
     {
-        void Add(T entiy);
-        void Update(T brand);
-        void Delete(T entiy);
-        List<T> GetAll();
+        IResult Add(T entiy);
+        IResult Update(T brand);
+        IResult Delete(T entiy);
+        IDataResult<List<T>> GetAll();
     }
 }
