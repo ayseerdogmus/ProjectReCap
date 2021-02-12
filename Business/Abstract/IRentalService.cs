@@ -11,6 +11,6 @@ namespace Business.Abstract
     public interface IRentalService:IRepositoryService<Rental>
     {
         IDataResult<bool> IsCarDelivered(Rental rental);
-        IDataResult<List<RentalDetailDto>> GetCarDetails(Expression<Func<Rental, bool>> filter = null);
+        IDataResult<List<RentalDetailDto>> GetRentalCarDetails(Expression<Func<Rental, bool>> filter = null);
     }
 }

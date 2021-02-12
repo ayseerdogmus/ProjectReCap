@@ -43,9 +43,9 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll(), Messages.Listed);
         }
 
-        public IDataResult<List<RentalDetailDto>> GetCarDetails(Expression<Func<Rental, bool>> filter = null)
+        public IDataResult<List<RentalDetailDto>> GetRentalCarDetails(Expression<Func<Rental, bool>> filter = null)
         {
-            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetCarDetails(filter), Messages.Listed);
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalCarDetails(filter), Messages.Listed);
         }
 
         public IDataResult<bool> IsCarDelivered(Rental rental)

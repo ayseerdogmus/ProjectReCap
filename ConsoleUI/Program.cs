@@ -28,7 +28,7 @@ namespace ConsoleUI
             //    Console.WriteLine("Araba Id: "+car.CarId + "  Marka: " + car.BrandName + "  Araba Rengi: " + car.ColorName + "  Araba Modeli: " + car.ModelYear + "  Araba Günük Fiyatı: " + car.DailyPrice + "  Araba Açıklaması: " + car.Description);
             //}
             //Console.WriteLine(rentalManager.Add(new Rental { CustomerId = 1, CarId = 1, RentDate = new DateTime(2021, 01, 25), ReturnDate = new DateTime(2021, 03, 26) }).Message);
-            foreach (var rental in rentalManager.GetCarDetails().Data)
+            foreach (var rental in rentalManager.GetRentalCarDetails().Data)
             {
                 Console.WriteLine(rental.RentalId + "  " + rental.FirstName + "  " + rental.LastName + "  "
                     + rental.CompanyName + "  " + rental.Email + "  " + rental.BrandName + "  " + rental.ModelYear + "  " + rental.RentDate + "  " + rental.ReturnDate);
@@ -300,7 +300,7 @@ namespace ConsoleUI
                 Console.WriteLine(rental.Id + "  " + rental.CustomerId + "  " + rental.CarId + "  " + rental.RentDate + "  " + rental.RentDate);
             }
 
-            foreach (var rental in rentalManager.GetCarDetails().Data)
+            foreach (var rental in rentalManager.GetRentalCarDetails().Data)
             {
                 Console.WriteLine(rental.RentalId + "  " + rental.FirstName + "  " + rental.LastName + "  " 
                     + rental.CompanyName + "  " + rental.Email + "  " + rental.BrandName + "  " + rental.ModelYear + "  " + rental.RentDate + "  " + rental.ReturnDate);
