@@ -14,5 +14,7 @@ namespace Business.Constants
         public static string UpdatedFailed = "Güncelleme işlemi başarısız!";
         public static string Listed = "Listeleme işlemi başarılı";
         public static string BrandNameInvalid = "Marka ismi geçersiz";
+        public static string CarAvailable="Araç kiralanabilir";
+        public static string CarNotAvailable="Araç kiralanamaz henüz teslim edilmemiş!";
     }
 }
