@@ -55,7 +55,7 @@ namespace Business.Concrete
             {
                 foreach (var car in isCarDeliveredList)
                 {                
-                    if (car.RentDate==null || car.ReturnDate > DateTime.Now)
+                    if (car.ReturnDate==null || car.ReturnDate > DateTime.Now)
                     {
                         return new ErrorDataResult<bool>(false, Messages.CarNotAvailable);
                         
@@ -63,8 +63,8 @@ namespace Business.Concrete
                 }
                 return new SuccessDataResult<bool>(true, Messages.CarAvailable);
             }
-
-            return new SuccessDataResult<bool>(true,Messages.CarAvailable);
+           
+            return new ErrorDataResult<bool>(false, Messages.CarNotAvailable);
         }
 
         public IResult Update(Rental rental)
