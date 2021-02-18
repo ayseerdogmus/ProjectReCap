@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8I5fWfc3zxcLdOVXU+U+F8GWCey+j8TTEZ9WfqziTMQ1LilCnu4vGkNi6wUX6T203m13lgv+OiZX1pxBLHc1iQ==",
+  "dgSpecHash": "D6ydKQEiswCTbcKt0EKmOuAOsy67/c/GkZnTcL8KGJx2AefBZZyrQIERihu9WAw+F9wIeiOgRFOTnWMbO+8ABA==",
   "success": true,
   "projectFilePath": "E:\\vs2019projeler\\ReCapProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\lenovo\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\lenovo\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

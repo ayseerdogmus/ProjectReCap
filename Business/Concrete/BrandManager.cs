@@ -1,5 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -19,17 +21,18 @@ namespace Business.Concrete
         }
         public IResult Add(Brand brand)
         {
-            if (brand.BrandName.Length > 2)
-            {
+            ValidationTool.Validate(new BrandValidator(), brand);
+            //if (brand.BrandName.Length > 2)
+            //{
                 _brandDal.Add(brand);
                 //Console.WriteLine("Marka eklendi.");
                 return new SuccessResult(Messages.Added);
-            }
-            else
-            {
-                //Console.WriteLine("Marka eklenemedi! Marka ismi en az 3 karakter olmalıdır. Girdiğiniz marka ismi  {0}",brand.BrandName);
-                return new ErrorResult(Messages.AddFailed);
-            }
+            //}
+            //else
+            //{
+            //    //Console.WriteLine("Marka eklenemedi! Marka ismi en az 3 karakter olmalıdır. Girdiğiniz marka ismi  {0}",brand.BrandName);
+            //    return new ErrorResult(Messages.AddFailed);
+            //}
         }
 
         public IResult Delete(Brand brand)
@@ -51,17 +54,18 @@ namespace Business.Concrete
 
         public IResult Update(Brand brand)
         {
-            if (brand.BrandName.Length >= 2)
-            {
+            ValidationTool.Validate(new BrandValidator(), brand);
+            //if (brand.BrandName.Length >= 2)
+            //{
                 _brandDal.Update(brand);
                 //Console.WriteLine("Marka güncellendi.");
                 return new SuccessResult(Messages.Updated);
-            }
-            else
-            {
-               // Console.WriteLine("Marka güncellenemedi! Marka ismi en az 3 karakter olmalıdır. Girdiğiniz marka ismi  {0}", brand.BrandName);
-                return new ErrorResult(Messages.BrandNameInvalid);
-            }
+            //}
+            //else
+            //{
+            //   // Console.WriteLine("Marka güncellenemedi! Marka ismi en az 3 karakter olmalıdır. Girdiğiniz marka ismi  {0}", brand.BrandName);
+            //    return new ErrorResult(Messages.BrandNameInvalid);
+            //}
         }
     }
 }

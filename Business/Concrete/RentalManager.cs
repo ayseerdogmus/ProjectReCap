@@ -63,8 +63,8 @@ namespace Business.Concrete
                 }
                 return new SuccessDataResult<bool>(true, Messages.CarAvailable);
             }
-           
-            return new ErrorDataResult<bool>(false, Messages.CarNotAvailable);
+
+            return new SuccessDataResult<bool>(true, Messages.CarAvailable);
         }
 
         public IResult Update(Rental rental)

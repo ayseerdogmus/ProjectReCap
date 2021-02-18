@@ -1,9 +1,12 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,17 +24,18 @@ namespace Business.Concrete
 
         public IResult Add(Car car)
         {
-            if (car.DailyPrice>0)
-            {
+            ValidationTool.Validate(new CarValidator(), car);
+            //if (car.DailyPrice>0)
+            //{
                 _carDal.Add(car);
                 //Console.WriteLine("Araba eklendi.");
                 return new SuccessResult(Messages.Added);
-            }
-            else
-            {
-                //Console.WriteLine("Araba eklenemedi girdiğiniz günlük fiyat {0} 0'dan büyük olmalı!",car.DailyPrice);
-                return new ErrorResult(Messages.AddFailed);
-            }
+            //}
+            //else
+            //{
+            //    //Console.WriteLine("Araba eklenemedi girdiğiniz günlük fiyat {0} 0'dan büyük olmalı!",car.DailyPrice);
+            //    return new ErrorResult(Messages.AddFailed);
+            //}
             
         }
 
