@@ -16,5 +16,7 @@ namespace Business.Constants
         public static string BrandNameInvalid = "Marka ismi geçersiz";
         public static string CarAvailable="Araç kiralanabilir";
         public static string CarNotAvailable="Araç kiralanamaz henüz teslim edilmemiş!";
+        public static string NotSuitableExtension="Resmin uzantısı uygun formatta değil!";
+        public static string CarImagesCountError="Bir araca ait en fazla 5 fotoğraf eklenebilir!";
     }
 }
