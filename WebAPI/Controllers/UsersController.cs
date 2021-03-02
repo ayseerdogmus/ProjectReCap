@@ -1,5 +1,5 @@
 ﻿using Business.Abstract;
-using Entities.Concrete;
+using Core.Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -31,7 +31,7 @@ namespace WebAPI.Controllers
         }
         
 
-        [HttpPost("add")]
+        //[HttpPost("add")]
         public IActionResult Add(User user)
         {
             var result = _userService.Add(user);

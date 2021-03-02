@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -178,8 +179,8 @@ namespace ConsoleUI
                 Console.WriteLine("Henüz hiç kullanıcı yok!");
             }
             
-            userManager.Add(new User { FirstName="Ayşe",LastName="Ebiçliğlu",Email="ayse@ayse.com",Password="123" });
-            userManager.Add(new User { FirstName = "Reyyan", LastName = "Ebiçliğlu", Email = "reyyan@reyyan.com", Password = "123" });
+            userManager.Add(new User { FirstName="Ayşe",LastName="Ebiçliğlu",Email="ayse@ayse.com"});
+            userManager.Add(new User { FirstName = "Reyyan", LastName = "Ebiçliğlu", Email = "reyyan@reyyan.com"});
 
             Console.WriteLine("Eklemeden sonra bütün kullanıcılar");
             foreach (var user in userManager.GetAll().Data)
@@ -191,8 +192,7 @@ namespace ConsoleUI
                 Id=1,
                 FirstName = "Bilge",
                 LastName = "Ebiçliğlu",
-                Email = "bilge@bilge.com",
-                Password = "123" });
+                Email = "bilge@bilge.com" });
             Console.WriteLine("Güncellemeden sonra bütün kullanıcılar");
             foreach (var user in userManager.GetAll().Data)
             {

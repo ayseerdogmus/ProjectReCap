@@ -65,3 +65,9 @@ E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensi
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
+E:\vs2019projeler\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
