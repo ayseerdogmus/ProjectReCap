@@ -72,3 +72,5 @@ E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.Dyn
 E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
 E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\log4net.dll
+E:\vs2019projeler\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\log4net.config
